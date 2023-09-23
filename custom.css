@@ -4,9 +4,9 @@ src: url('https://static1.squarespace.com/static/5f0f3fd14b6dc24dbfc78b1b/t/63fb
 }
 
 html {
--moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: antialiased;
--font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale !important;
+-webkit-font-smoothing: antialiased !important;
+-font-smoothing: antialiased !important;
 }
 
 .thrivecart-courses-sidebar {
@@ -16,6 +16,60 @@ box-shadow: none !important;
 .builder-v2-block.builder-v2-block-heading.styled.tc-font-poppins.tc-text_transform-auto {
 font-family: title !important;
 font-weight: normal;
-font-style: normal;
-color: red !important;
+}
+
+.tc-v2-widget-core_courses_heading .builder-v2-block-core_courses_heading h1 span {
+font-family: 'title';
+font-size: 30px !important;
+font-weight: normal !important;
+}
+
+p i {
+text-transform: uppercase !important;
+font-style: normal !important;
+letter-spacing: 1px !important;
+font-size: 12px !important;
+}
+
+p:not(i), .tc-v2-widget-text .builder-v2-block-text:not(i) {
+font-size: 12px !important;
+font-weight: 200 !important;
+}
+
+
+
+span.tcc-browse-lesson-name-text {
+font-weight: normal !important;
+font-size: 12px !important;
+letter-spacing: 0px !important;
+}
+
+
+.tcc-browse-lesson-name-inner {
+padding-top: 3px !important;
+padding-bottom: 3px !important;
+}
+
+.tcc-browse-lesson-name-inner::before {
+border-top: 0.5px solid rgba(0,0,0,0) !important;
+border-bottom: 0.5px solid rgba(0,0,0,0) !important;
+border-left: 9px solid rgba(0,0,0,0) !important;
+}
+
+.thrivecart-site .tc-v2-widget-bullets .tc-bullet_style-plain p::before {
+content: "—";
+left: 0px;
+top: 0px !important;
+font-weight: normal !important;
+font-family: 'Poppins' !important;
+}
+
+span.tcc-browse-module-name {
+border-bottom: 1px solid #cfcecd;
+margin-bottom: 7px;
+padding-bottom: 7px !important;
+text-transform: uppercase !important;
+font-size: 12px !important;
+font-weight: normal !important;
+letter-spacing: 1px;
 }
