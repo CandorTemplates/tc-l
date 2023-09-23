@@ -52,9 +52,10 @@ font-weight: normal !important;
 
 .tcc-course_control-info-text
 {
-font-family: 'title';
+font-family: 'title-italic';
 font-size: 20px !important;
 font-weight: normal !important;
+    text-transform: none !important;
 }
 
 p i {
