@@ -31,6 +31,14 @@ letter-spacing: 1px !important;
 font-size: 12px !important;
 }
 
+.builder-v2-block-heading i {
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase !important;
+    font-style: normal !important;
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+}
+
 p:not(i), .tc-v2-widget-text .builder-v2-block-text:not(i) {
 font-size: 12px !important;
 font-weight: 200 !important;
