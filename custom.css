@@ -93,9 +93,6 @@ padding-bottom: 3px !important;
 }
 
 .tcc-browse-lesson-name-inner::before {
-border-top: 0.5px solid rgba(0,0,0,0) !important;
-border-bottom: 0.5px solid rgba(0,0,0,0) !important;
-border-left: 9px solid rgba(0,0,0,0) !important;
 border-color: var(--course-tab-indicator-color, #839fb9) !important;
 }
 
