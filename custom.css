@@ -28,11 +28,6 @@ font-family: title-italic !important;
 font-weight: normal  !important;
 }
 
-.builder-v2-block-heading i {
-font-family: title-italic !important;
-font-weight: normal;
-}
-
 .tc-v2-widget-core_courses_heading .builder-v2-block-core_courses_heading h1 span {
 font-family: 'title';
 font-size: 30px !important;
@@ -53,7 +48,7 @@ letter-spacing: 1px !important;
 font-size: 12px !important;
 }
 
-.builder-v2-block-heading i, .tcc-course_control-label-text {
+.builder-v2-block-heading [style*="line-through"], .tcc-course_control-label-text {
 font-family: 'Poppins', sans-serif !important;
 text-transform: uppercase !important;
 font-style: normal !important;
