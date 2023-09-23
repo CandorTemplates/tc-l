@@ -1,3 +1,4 @@
+<style>
 @font-face {
 font-family: title;
   src: url('https://static1.squarespace.com/static/5f0f3fd14b6dc24dbfc78b1b/t/63fbe55222f9c813064127e2/1677452626209/editorsnote-hairline-webfont.woff2');
@@ -8,3 +9,5 @@ font-family: title !important;
   font-weight: normal;
   font-style: normal;
 color: red !important; }
+
+</style>
