@@ -18,8 +18,13 @@ html {
 box-shadow: none !important;
 }
 
-.builder-v2-block.builder-v2-block-heading.styled.tc-font-poppins.tc-text_transform-auto {
+.builder-v2-block-heading:not(i) {
 font-family: title !important;
+font-weight: normal;
+}
+
+.builder-v2-block-heading i {
+font-family: title-italic !important;
 font-weight: normal;
 }
 
