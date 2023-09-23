@@ -103,3 +103,8 @@ letter-spacing: 1px;
 .tcc-browse-item-logo {
 display: none !important;
 }
+
+.builder-v2-widget.tc-v2-widget-core_courses_heading.builder-v2-widget-unselectable {
+    padding: 0 1.3em;
+}
+
