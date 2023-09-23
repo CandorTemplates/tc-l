@@ -54,6 +54,7 @@ padding-bottom: 3px !important;
 border-top: 0.5px solid rgba(0,0,0,0) !important;
 border-bottom: 0.5px solid rgba(0,0,0,0) !important;
 border-left: 9px solid rgba(0,0,0,0) !important;
+border-color: var(--course-tab-indicator-color, #839fb9) !important;
 }
 
 .thrivecart-site .tc-v2-widget-bullets .tc-bullet_style-plain p::before {
