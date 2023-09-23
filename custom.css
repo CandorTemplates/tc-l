@@ -47,7 +47,7 @@ letter-spacing: 1px !important;
 font-size: 12px !important;
 }
 
-.builder-v2-block-heading u, .tcc-course_control-label-text {
+.builder-v2-block-heading u, .tcc-course_control-label-text, span.tcc-progress-amt-label, .tcc-progress-amt {
 font-family: 'Poppins', sans-serif !important;
 text-transform: uppercase !important;
 font-style: normal !important;
@@ -61,7 +61,12 @@ font-size: 13px !important;
 font-weight: 200 !important;
 }
 
-
+.thrivecart-courses-header .thrivecart-courses-header-profile p,
+.thrivecart-site .thrivecart-courses-header-return .tcc-button  {
+font-weight: normal !important;
+font-size: 12px !important;
+letter-spacing: 0px !important;
+}
 
 span.tcc-browse-lesson-name-text {
 font-weight: normal !important;
