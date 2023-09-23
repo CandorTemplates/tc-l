@@ -93,7 +93,7 @@ padding-bottom: 3px !important;
 }
 
 .tcc-browse-lesson-name-inner::before {
-border-color: #cfcecd !important;
+border-left-color: #cfcecd !important;
 }
 
 .thrivecart-site .tc-v2-widget-bullets .tc-bullet_style-plain p::before {
