@@ -14,6 +14,10 @@ html {
 -font-smoothing: antialiased !important;
 }
 
+.builder-v2-content .thrivecart-courses-page .tc-v2-widget-core_courses_browser .builder-v2-block-core_courses_browser .tcc-browse-module+.tcc-browse-module {
+    margin-top: 1.4em;
+}
+
 .thrivecart-courses-sidebar {
 box-shadow: none !important;
 }
@@ -119,7 +123,7 @@ display: none !important;
     content: 'Welcome! Make your way through out tried and tested process below to go from template to launch in just 5 steps.';
     font-size: 12px !important;
     font-weight: normal !important;
-    margin-bottom: 10px !important;
+    margin-bottom:  1.4em !important;
     margin-top: 10px;
     display: block !important;
 }
