@@ -166,3 +166,8 @@ li.faq-questions-block {
     padding: 8px 12px !important;
     margin-bottom: 5px !important;
 }
+
+.thrivecart-site .tc-v2-widget-bullets .tc-bullet_style-numbered p::before {
+    text-align: left !important;
+    font-weight: normal !important;
+}
