@@ -135,3 +135,10 @@ letter-spacing: 1px !important;
 font-size: 12px !important;
      font-weight: normal !important;
 }
+
+.thrivecart-courses-sidebar-inner {
+    border-right: 1px solid #cfcecd;
+}
+.thrivecart-courses-header-wrap {
+    border-bottom: 1px solid #cfcecd;
+}
