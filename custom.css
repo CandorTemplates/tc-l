@@ -18,12 +18,12 @@ html {
 box-shadow: none !important;
 }
 
-.builder-v2-block-heading:not([style*="line-through"]) {
+.builder-v2-block-heading:not(u) {
 font-family: title !important;
 font-weight: normal  !important;
 }
 
-.builder-v2-block-heading:not([style*="line-through"]) i {
+.builder-v2-block-heading:not(u) i {
 font-family: title-italic !important;
 font-weight: normal  !important;
 }
@@ -48,7 +48,7 @@ letter-spacing: 1px !important;
 font-size: 12px !important;
 }
 
-.builder-v2-block-heading [style*="line-through"], .tcc-course_control-label-text {
+.builder-v2-block-heading u, .tcc-course_control-label-text {
 font-family: 'Poppins', sans-serif !important;
 text-transform: uppercase !important;
 font-style: normal !important;
