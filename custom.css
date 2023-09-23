@@ -20,7 +20,12 @@ box-shadow: none !important;
 
 .builder-v2-block-heading:not(i) {
 font-family: title !important;
-font-weight: normal;
+font-weight: normal  !important;
+}
+
+.builder-v2-block-heading i {
+font-family: title-italic !important;
+font-weight: normal  !important;
 }
 
 .builder-v2-block-heading i {
