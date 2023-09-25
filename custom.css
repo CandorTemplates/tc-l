@@ -8,6 +8,10 @@ font-family: title-italic;
 src: url('https://static1.squarespace.com/static/5f0f3fd14b6dc24dbfc78b1b/t/63fbe5c7bcbbae4552bf9479/1677452743387/editorsnote-hairlineitalic-webfont.woff2');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .candor-notice {
 display: flex !important;
 align-items: center !important;
