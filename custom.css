@@ -15,6 +15,10 @@ a {
   cursor: pointer !important;
 }
 
+.tc-v2-widget-text .builder-v2-block-text:not(i) b {
+    font-weight: 600 !important;
+}
+
 .candor-notice {
 display: flex !important;
 align-items: center !important;
