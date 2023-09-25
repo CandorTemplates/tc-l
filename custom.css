@@ -21,6 +21,14 @@ table.tableizer-table {
     font-size: 13px !important;
 }
 
+.tableizer-table tr {
+    border-bottom: 1px solid #cfcecd;
+}
+
+.tableizer-table td {
+    padding: 7px;
+}
+
 .button .builder-v2-block.builder-v2-block-plaintext {
     font-size: 12px !important;
 }
