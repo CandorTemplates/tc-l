@@ -15,6 +15,10 @@ a {
   cursor: pointer !important;
 }
 
+.thrivecart-body.tc-course_nav_accordion .tc-v2-widget-core_courses_browser .tcc-browse-module.current .tcc-browse-module-content::before {
+  display: none !important;
+}
+
 table.tableizer-table {
     width: -webkit-fill-available;
     color: #000000 !important;
