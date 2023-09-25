@@ -15,6 +15,12 @@ a {
   cursor: pointer !important;
 }
 
+table.tableizer-table {
+    width: -webkit-fill-available;
+    color: #000000 !important;
+    font-size: 13px !important;
+}
+
 .button .builder-v2-block.builder-v2-block-plaintext {
     font-size: 12px !important;
 }
