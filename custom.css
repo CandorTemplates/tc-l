@@ -9,7 +9,10 @@ src: url('https://static1.squarespace.com/static/5f0f3fd14b6dc24dbfc78b1b/t/63fb
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+}
+a {
+  cursor: pointer !important;
 }
 
 .candor-notice {
