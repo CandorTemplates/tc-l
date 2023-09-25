@@ -29,6 +29,14 @@ table.tableizer-table {
     padding: 7px;
 }
 
+.tableizer-table tr > td:not(:first-of-type) {
+    text-align: center !important;
+}
+
+.tableizer-table tr > th:not(:first-of-type) {
+    text-align: center !important;
+}
+
 .button .builder-v2-block.builder-v2-block-plaintext {
     font-size: 12px !important;
 }
