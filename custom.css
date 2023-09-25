@@ -37,6 +37,11 @@ text-underline-position: under !important;
 text-decoration-color: #cfcecd !important;
 }
 
+.builder-v2-block-text:not(i) a {
+    text-underline-position: under;
+    color: #0d2b6d !important;
+}
+
 .builder-v2-widget.tc-v2-widget-core_courses_heading.builder-v2-widget-unselectable:before {
     content: "";
     background-image: url(https://static1.squarespace.com/static/5f0f3fd14b6dc24dbfc78b1b/t/650efe7dfa23dc7f907073e6/1695481470005/CandorTemplates-39.png);
