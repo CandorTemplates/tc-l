@@ -142,7 +142,7 @@ counter-increment: lesson;
 }
 
 span.tcc-browse-lesson-name-text:before {
-content: counter(module)"."counter(lesson)". ";
+content: counter(module)"."counter(lesson)". "" ";
 }
 
 
