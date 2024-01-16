@@ -27,6 +27,13 @@ font-style: normal;
 --para-style: normal ;
 --para-spacing: 0px ;
 --para-decoration-color: #eceae6;
+
+--title-family: 'Poppins', sans-serif ;
+--title-weight: 100;
+--title-transform: none ;
+--title-style: normal ;
+--title-spacing: 0px ;
+--title-decoration-color: #eceae6;
 }
 
 
@@ -52,6 +59,20 @@ text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under !important;
 }
 
+
+li.tcc-browse-module.active.current {
+    background: #484341;
+    border-radius: 5px;
+    padding: 5px 0px 10px 0px;
+}
+
+li.tcc-browse-module.active.current * {
+    color: #fefdfb;
+}
+
+li.tcc-browse-module.active.current .tcc-browse-module-name {
+    color: #fefdfb !important;
+}
 
 .thrivecart-body {
 --course-lesson-divide-color: #E9E9E9;
@@ -261,13 +282,13 @@ span.tcc-browse-module-name {
 border-bottom: 1px solid #eceae6;
 margin-bottom: 9px;
 padding-bottom: 9px !important;
-font-family: var(--accent-family) !important;
-font-size: var(--accent-size) !important;
-font-weight: var(--accent-weight) !important;
-text-transform: var(--accent-transform) !important;
-font-style: var(--accent-style) !important;
-letter-spacing: var(--accent-spacing) !important;
-text-decoration-color: var(--accent-decoration-color) !important;
+font-family: var(--title-family) !important;
+font-size: 16px !important;
+font-weight: var(--title-weight) !important;
+text-transform: lowercase !important;
+font-style: var(--title-style) !important;
+letter-spacing: var(--title-spacing) !important;
+text-decoration-color: var(--title-decoration-color) !important;
 text-underline-position: under !important;
 }
 
