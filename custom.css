@@ -85,6 +85,10 @@ letter-spacing: var(--button-spacing) !important;
 text-decoration-color: var(--button-decoration-color) !important;
 }
 
+a.unclickable {
+    color: black !important;
+}
+
 .tc-v2-widget-button .button {
 padding: var(--button-padding) !important;
 }
