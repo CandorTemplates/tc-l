@@ -41,6 +41,14 @@ font-style: normal;
 --title-style: normal ;
 --title-spacing: 0px ;
 --title-decoration-color: #eceae6;
+
+--button-family: 'Poppins', sans-serif ;
+--button-size: 13px ;
+--button-padding: 7px 23px;
+--button-weight: 100;
+--button-transform: lowercase ;
+--button-style: normal ;
+--button-spacing: 0px ;
 }
 
 
@@ -66,6 +74,18 @@ text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under !important;
 }
 
+.button {
+font-family: var(--button-family) !important;
+font-size: var(--button-size) !important;
+font-weight: var(--button-weight) !important;
+text-transform: var(--button-transform) !important;
+font-style: var(--button-style) !important;
+letter-spacing: var(--button-spacing) !important;
+text-decoration-color: var(--button-decoration-color) !important;
+}
+
+
+
 li.tcc-browse-module.active + li.tcc-browse-module, li.tcc-browse-module.active {
 border-top: 0px;
 }
@@ -80,9 +100,9 @@ border-bottom: 1px solid currentColor;
 margin-bottom: 9px;
 padding-bottom: 9px !important;
 }
-    
+
 li.tcc-browse-module.active + li.tcc-browse-module {
-    margin-top: 0px !important;
+margin-top: 0px !important;
 }
 
 
@@ -175,10 +195,13 @@ text-transform: uppercase !important;
 }
 
 button.button {
-font-size: 12px !important;
-padding: 7px 23px !important;
-letter-spacing: 1px !important;
-text-transform: uppercase !important;
+padding: var(--button-family) !important;
+font-size: var(--button-size) !important;
+font-weight: var(--button-weight) !important;
+text-transform: var(--button-transform) !important;
+font-style: var(--button-style) !important;
+letter-spacing: var(--button-spacing) !important;
+text-decoration-color: var(--button-decoration-color) !important;
 }
 
 .tc-v2-widget-text .builder-v2-block-text:not(i) b {
