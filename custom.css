@@ -75,9 +75,12 @@ ul.tcc-browse-lessons {
     list-style-type: none;
 }
 
-span.tcc-browse-lesson-name-text:before {
-    content: counter(lesson)". ";
+li.tcc-browse-lesson {
     counter-increment: lesson;
+}
+
+span.tcc-browse-lesson-name-text:before {
+    content: counter(module)"."counter(lesson)". ";
 }
 
 
