@@ -171,7 +171,7 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
-text-decoraion-color: var(--accent-decoration-color) !important;
+text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under;
 }
 
