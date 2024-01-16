@@ -153,7 +153,7 @@ border: 0px !important;
 li.tcc-browse-module.active {
 background: #484341;
 border-radius: 5px;
-padding: 5px 0px 10px 0px;
+padding: 10px 0px 15px 0px;
 }
 
 li.tcc-browse-module:not(.active) .tcc-browse-module-name {
