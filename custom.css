@@ -310,8 +310,7 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
-text-decoration-color: var(--accent-decoration-color) !important;
-text-underline-position: under !important;
+text-decoration: none !important;
 }
 
 .builder-v2-content .builder-v2-widget.tc-v2-widget-core_courses_control_next[data-attr_text_padding="2"] .button
