@@ -20,7 +20,38 @@ font-style: normal;
 --accent-spacing: 2px ;
 --accent-decoration-color: #eceae6;
 
+--para-family: 'Poppins', sans-serif ;
+--para-size: 12px ;
+--para-weight: 100;
+--para-transform: none ;
+--para-style: normal ;
+--para-spacing: 0px ;
+--para-decoration-color: #eceae6;
 }
+
+
+.paragraphs {
+font-family: var(--para-family) !important;
+font-size: var(--para-size) !important;
+font-weight: var(--para-weight) !important;
+text-transform: var(--para-transform) !important;
+font-style: var(--para-style) !important;
+letter-spacing: var(--para-spacing) !important;
+text-decoration-color: var(--para-decoration-color) !important;
+text-underline-position: under !important;
+}
+
+.accents {
+font-family: var(--accent-family) !important;
+font-size: var(--accent-size) !important;
+font-weight: var(--accent-weight) !important;
+text-transform: var(--accent-transform) !important;
+font-style: var(--accent-style) !important;
+letter-spacing: var(--accent-spacing) !important;
+text-decoration-color: var(--accent-decoration-color) !important;
+text-underline-position: under !important;
+}
+
 
 .thrivecart-body {
 --course-lesson-divide-color: #E9E9E9;
@@ -162,7 +193,7 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
-  text-decoration-color: var(--accent-decoration-color) !important;
+text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under !important;
 }
 
@@ -185,13 +216,19 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
-  text-decoration-color: var(--accent-decoration-color) !important;
+text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under !important;
 }
 
 p:not(i), .tc-v2-widget-text .builder-v2-block-text:not(i) {
-font-size: 13px !important;
-font-weight: 200 !important;
+font-family: var(--para-family) !important;
+font-size: var(--para-size) !important;
+font-weight: var(--para-weight) !important;
+text-transform: var(--para-transform) !important;
+font-style: var(--para-style) !important;
+letter-spacing: var(--para-spacing) !important;
+text-decoration-color: var(--para-decoration-color) !important;
+text-underline-position: under !important;
 }
 
 
@@ -230,7 +267,7 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
-  text-decoration-color: var(--accent-decoration-color) !important;
+text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under !important;
 }
 
@@ -265,7 +302,7 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
-  text-decoration-color: var(--accent-decoration-color) !important;
+text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under !important;
 }
 
@@ -277,7 +314,7 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
-  text-decoration-color: var(--accent-decoration-color) !important;
+text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under !important;
 }
 
