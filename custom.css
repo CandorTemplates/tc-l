@@ -150,9 +150,9 @@ font-size: 12px !important;
 .builder-v2-block-heading u, .tcc-course_control-label-text, span.tcc-progress-amt-label, .tcc-progress-amt {
 font-family: 'Poppins', sans-serif !important;
 text-transform: uppercase !important;
-font-style: normal !important;
-letter-spacing: 1px !important;
-font-size: 12px !important;
+    font-style: normal !important;
+    letter-spacing: 2px !important;
+    font-size: 11px !important;
     text-underline-position: under;
     text-decoration-color: #cfcecd !important;
 }
