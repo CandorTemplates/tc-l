@@ -11,6 +11,10 @@ font-family: title-italic;
   font-style: normal;
 }
 
+.thrivecart-body {
+    --course-lesson-divide-color: #E9E9E9;
+}
+
 html {
   scroll-behavior: smooth !important;
 }
@@ -248,7 +252,7 @@ font-size: 12px !important;
 }
 
 .thrivecart-courses-sidebar-inner {
-    border-right: 0px solid #eceae6;
+    border-right: 0px solid #eceae6 !important;
 }
 .thrivecart-courses-header-wrap {
     border-bottom: 1px solid #eceae6;
