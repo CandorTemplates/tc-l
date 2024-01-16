@@ -96,8 +96,8 @@ width: -webkit-fill-available !important;
 
 .candor-notice a {
 color: currentColor !important;
+text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under !important;
-text-decoration-color: #eceae6 !important;
 }
 
 .builder-v2-block-text:not(i) a {
