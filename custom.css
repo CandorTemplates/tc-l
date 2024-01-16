@@ -69,6 +69,10 @@ li.tcc-browse-module.active {
     padding: 5px 0px 10px 0px;
 }
 
+li.tcc-browse-module:not(.active) .tcc-browse-module-name {
+    padding-top: 0px !important;
+}
+
 li.tcc-browse-module.active * {
     color: #fefdfb;
 }
@@ -180,7 +184,7 @@ html {
 }
 
 .builder-v2-content .thrivecart-courses-page .tc-v2-widget-core_courses_browser .builder-v2-block-core_courses_browser .tcc-browse-module+.tcc-browse-module {
-margin-top: 1.4em;
+margin-top: 1em;
 }
 
 .thrivecart-courses-sidebar {
