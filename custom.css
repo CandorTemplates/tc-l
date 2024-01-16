@@ -25,7 +25,7 @@ font-style: normal;
 --accent-transform: uppercase ;
 --accent-style: normal ;
 --accent-spacing: 2px ;
---accent-decoration-color: transparent;
+--accent-decoration-color: var(--accent);
 
 --para-family: 'Poppins', sans-serif ;
 --para-size: 13px ;
