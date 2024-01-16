@@ -270,6 +270,10 @@ li.tcc-browse-lesson.active .tcc-browse-lesson-name-inner::before {
 border-left-color: #eceae6 ;
 }
 
+li.tcc-browse-lesson:not(.active) .tcc-browse-lesson-name-inner::before {
+    border-left-color: #eceae721 !important;
+}
+
 
 .thrivecart-site .tc-v2-widget-bullets .tc-bullet_style-plain p::before {
 content: "—";
