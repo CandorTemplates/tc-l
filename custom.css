@@ -81,6 +81,10 @@ margin-bottom: 9px;
 padding-bottom: 9px !important;
 }
     
+li.tcc-browse-module.active + li.tcc-browse-module {
+    margin-top: 0px !important;
+}
+
 
 ul.tcc-browse-modules {
 counter-reset: module;
