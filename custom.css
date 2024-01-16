@@ -85,6 +85,10 @@ letter-spacing: var(--button-spacing) !important;
 text-decoration-color: var(--button-decoration-color) !important;
 }
 
+ .tcc-browse-lesson-name-inner {
+    border: 0px !important;
+}
+
 builder-v2-widget.tc-v2-widget-core_courses_browser.builder-v2-widget-unselectable {
     padding: 0 1.3em;
 }
