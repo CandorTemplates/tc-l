@@ -59,6 +59,28 @@ text-decoration-color: var(--accent-decoration-color) !important;
 text-underline-position: under !important;
 }
 
+
+ul.tcc-browse-modules {
+    counter-reset: module;
+    list-style-type: none;
+}
+
+span.tcc-browse-module-name:before {
+    content: counter(module)". ";
+    counter-increment: module;
+}
+
+ul.tcc-browse-lessons {
+    counter-reset: lesson;
+    list-style-type: none;
+}
+
+span.tcc-browse-lesson-name-text:before {
+    content: counter(lesson)". ";
+    counter-increment: lesson;
+}
+
+
 .tcc-browse-lesson.active {
     border: 0px !important;
 }
