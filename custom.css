@@ -266,8 +266,12 @@ padding-top: 3px !important;
 padding-bottom: 3px !important;
 }
 
-.tcc-browse-lesson-name-inner::before {
-border-left-color: #eceae6 !important;
+li.tcc-browse-lesson.active .tcc-browse-lesson-name-inner::before {
+border-left-color: #eceae6 ;
+}
+
+li.tcc-browse-lesson.active .tcc-browse-lesson-name-inner::before {
+border-left-color: red ;
 }
 
 .thrivecart-site .tc-v2-widget-bullets .tc-bullet_style-plain p::before {
