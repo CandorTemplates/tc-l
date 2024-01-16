@@ -29,7 +29,7 @@ table.tableizer-table {
 }
 
 .tableizer-table tr {
-    border-bottom: 1px solid #cfcecd;
+    border-bottom: 1px solid #eceae6;
 }
 
 .tableizer-table td {
@@ -82,7 +82,7 @@ width: -webkit-fill-available !important;
 .candor-notice a {
 color: currentColor !important;
 text-underline-position: under !important;
-text-decoration-color: #cfcecd !important;
+text-decoration-color: #eceae6 !important;
 }
 
 .builder-v2-block-text:not(i) a {
@@ -154,7 +154,7 @@ text-transform: uppercase !important;
     letter-spacing: 2px !important;
     font-size: 11px !important;
     text-underline-position: under;
-    text-decoration-color: #cfcecd !important;
+    text-decoration-color: #eceae6 !important;
 }
 
 .builder-v2-content .builder-v2-widget.tc-v2-widget-core_courses_control_next[data-attr_text_padding="2"] .button
@@ -186,7 +186,7 @@ padding-bottom: 3px !important;
 }
 
 .tcc-browse-lesson-name-inner::before {
-border-left-color: #cfcecd !important;
+border-left-color: #eceae6 !important;
 }
 
 .thrivecart-site .tc-v2-widget-bullets .tc-bullet_style-plain p::before {
@@ -198,7 +198,7 @@ font-family: 'Poppins' !important;
 }
 
 span.tcc-browse-module-name {
-border-bottom: 1px solid #cfcecd;
+border-bottom: 1px solid #eceae6;
 margin-bottom: 9px;
 padding-bottom: 9px !important;
 text-transform: uppercase !important;
@@ -248,10 +248,10 @@ font-size: 12px !important;
 }
 
 .thrivecart-courses-sidebar-inner {
-    border-right: 1px solid #cfcecd;
+    border-right: 0px solid #eceae6;
 }
 .thrivecart-courses-header-wrap {
-    border-bottom: 1px solid #cfcecd;
+    border-bottom: 1px solid #eceae6;
 }
 
 li.faq-questions-block {
