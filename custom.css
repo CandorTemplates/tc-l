@@ -270,7 +270,7 @@ li.tcc-browse-lesson.active .tcc-browse-lesson-name-inner::before {
 border-left-color: #eceae6 ;
 }
 
-li.tcc-browse-lesson.active .tcc-browse-lesson-name-inner::before {
+li.tcc-browse-lesson:not(.active) .tcc-browse-lesson-name-inner::before {
 border-left-color: red ;
 }
 
