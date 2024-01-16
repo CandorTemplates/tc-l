@@ -77,6 +77,7 @@ text-underline-position: under !important;
 .button {
 font-family: var(--button-family) !important;
 font-size: var(--button-size) !important;
+padding: var(--button-padding) !important;
 font-weight: var(--button-weight) !important;
 text-transform: var(--button-transform) !important;
 font-style: var(--button-style) !important;
