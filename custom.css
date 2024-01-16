@@ -322,6 +322,10 @@ font-weight: normal !important;
 font-family: 'Poppins' !important;
 }
 
+li.tcc-browse-module.active span.tcc-browse-module-name {
+    border-bottom: 1px solid currentColor;
+}
+
 span.tcc-browse-module-name {
 border-bottom: 1px solid var(--darkest);
 margin-bottom: 9px;
