@@ -85,6 +85,10 @@ letter-spacing: var(--button-spacing) !important;
 text-decoration-color: var(--button-decoration-color) !important;
 }
 
+builder-v2-widget.tc-v2-widget-core_courses_browser.builder-v2-widget-unselectable {
+    padding: 0 1.3em;
+}
+
 a.unclickable {
     color: black !important;
 }
@@ -152,7 +156,7 @@ border: 0px !important;
 
 li.tcc-browse-module.active {
 background: #484341;
-border-radius: 5px;
+
 padding: 10px 0px 15px 0px;
 }
 
@@ -385,7 +389,7 @@ display: none !important;
 }
 
 .builder-v2-widget.tc-v2-widget-core_courses_heading.builder-v2-widget-unselectable {
-padding: 0 1.3em;
+padding: 0;
 }
 
 .tc-v2-widget-core_courses_heading .builder-v2-block-core_courses_heading h1:after {
