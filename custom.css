@@ -60,17 +60,17 @@ text-underline-position: under !important;
 }
 
 
-li.tcc-browse-module.active.active {
+li.tcc-browse-module.active {
     background: #484341;
     border-radius: 5px;
     padding: 5px 0px 10px 0px;
 }
 
-li.tcc-browse-module.active.active * {
+li.tcc-browse-module.active * {
     color: #fefdfb;
 }
 
-li.tcc-browse-module.active.active .tcc-browse-module-name {
+li.tcc-browse-module.active .tcc-browse-module-name {
     color: #fefdfb !important;
 }
 
