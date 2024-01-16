@@ -86,14 +86,16 @@ text-decoration-color: var(--button-decoration-color) !important;
 }
 
 .tc-v2-widget-button .button {
+padding: var(--button-padding) !important;
+}
+
+.button * {
   font-family: var(--button-family) !important;
 font-size: var(--button-size) !important;
-padding: var(--button-padding) !important;
 font-weight: var(--button-weight) !important;
 text-transform: var(--button-transform) !important;
 font-style: var(--button-style) !important;
 letter-spacing: var(--button-spacing) !important;
-text-decoration-color: var(--button-decoration-color) !important;
 }
 
 li.tcc-browse-module.active + li.tcc-browse-module, li.tcc-browse-module.active {
