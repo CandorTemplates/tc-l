@@ -89,7 +89,7 @@ text-decoration-color: var(--button-decoration-color) !important;
 padding: var(--button-padding) !important;
 }
 
-.button * {
+.button .builder-v2-block.builder-v2-block-plaintext{
   font-family: var(--button-family) !important;
 font-size: var(--button-size) !important;
 font-weight: var(--button-weight) !important;
@@ -201,20 +201,8 @@ text-align: center !important;
 text-align: center !important;
 }
 
-.button .builder-v2-block.builder-v2-block-plaintext {
-font-size: 12px !important;
-text-transform: uppercase !important;
-}
 
-button.button {
-padding: var(--button-family) !important;
-font-size: var(--button-size) !important;
-font-weight: var(--button-weight) !important;
-text-transform: var(--button-transform) !important;
-font-style: var(--button-style) !important;
-letter-spacing: var(--button-spacing) !important;
-text-decoration-color: var(--button-decoration-color) !important;
-}
+
 
 .tc-v2-widget-text .builder-v2-block-text:not(i) b {
 font-weight: 600 !important;
