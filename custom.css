@@ -162,6 +162,8 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
+  text-decoration-color: var(--accent-decoration-color) !important;
+text-underline-position: under;
 }
 
 .builder-v2-block-heading u, .tcc-course_control-label-text, span.tcc-progress-amt-label, .tcc-progress-amt {
@@ -183,6 +185,8 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
+  text-decoration-color: var(--accent-decoration-color) !important;
+text-underline-position: under;
 }
 
 p:not(i), .tc-v2-widget-text .builder-v2-block-text:not(i) {
@@ -226,6 +230,8 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
+  text-decoration-color: var(--accent-decoration-color) !important;
+text-underline-position: under;
 }
 
 .tcc-browse-item-logo {
@@ -259,6 +265,8 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
+  text-decoration-color: var(--accent-decoration-color) !important;
+text-underline-position: under;
 }
 
 .thrivecart-courses-header .thrivecart-courses-header-profile p,
@@ -269,6 +277,8 @@ font-weight: var(--accent-weight) !important;
 text-transform: var(--accent-transform) !important;
 font-style: var(--accent-style) !important;
 letter-spacing: var(--accent-spacing) !important;
+  text-decoration-color: var(--accent-decoration-color) !important;
+text-underline-position: under;
 }
 
 .thrivecart-courses-sidebar-inner {
