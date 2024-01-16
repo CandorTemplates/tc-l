@@ -5,7 +5,10 @@ src: url('https://static1.squarespace.com/static/5f0f3fd14b6dc24dbfc78b1b/t/63fb
 
 @font-face {
 font-family: title-italic;
-src: url('https://static1.squarespace.com/static/5f0f3fd14b6dc24dbfc78b1b/t/63fbe5c7bcbbae4552bf9479/1677452743387/editorsnote-hairlineitalic-webfont.woff2');
+  src: url('https://static1.squarespace.com/static/658d77d73558cb11d539330f/t/6595fb64e1f3877c9b11155e/1704328037038/ed_sonar-regular-webfont.woff2') format('woff2'),
+    url('https://static1.squarespace.com/static/658d77d73558cb11d539330f/t/6595fb64931f0028d82701dd/1704328037055/ed_sonar-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
@@ -119,19 +122,19 @@ font-weight: normal  !important;
 }
 
 .builder-v2-block-heading:not(u) i {
-font-family: title-italic !important;
+font-family: 'Poppins', sans-serif;
 font-weight: normal  !important;
 }
 
 .tc-v2-widget-core_courses_heading .builder-v2-block-core_courses_heading h1 span {
-font-family: 'title';
+font-family: 'Poppins', sans-serif;
 font-size: 30px !important;
 font-weight: normal !important;
 }
 
 .tcc-course_control-info-text
 {
-font-family: 'title-italic';
+font-family: 'Poppins', sans-serif;
 font-size: 20px !important;
 font-weight: normal !important;
     text-transform: none !important;
