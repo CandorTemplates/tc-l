@@ -21,7 +21,7 @@ font-style: normal;
 --accent-decoration-color: #eceae6;
 
 --para-family: 'Poppins', sans-serif ;
---para-size: 12px ;
+--para-size: 13px ;
 --para-weight: 100;
 --para-transform: none ;
 --para-style: normal ;
@@ -174,7 +174,7 @@ font-weight: normal  !important;
 
 .tc-v2-widget-core_courses_heading .builder-v2-block-core_courses_heading h1 span {
 font-family: 'Poppins', sans-serif;
-font-size: 30px !important;
+font-size: 25px !important;
 font-weight: normal !important;
 }
 
