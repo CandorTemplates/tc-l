@@ -38,6 +38,18 @@ flex-direction: row;
 padding-right: 7px;
 }
 
+.lesson-nav a {
+color: currentColor !important;
+font-family: var(--para-family) !important;
+font-size: var(--para-size) !important;
+font-weight: var(--para-weight) !important;
+text-transform: var(--para-transform) !important;
+font-style: var(--para-style) !important;
+letter-spacing: var(--para-spacing) !important;
+text-decoration-color: var(--para-decoration-color) !important;
+text-underline-position: under !important;
+}
+
 :root {
 
 --light: #FEFDFA;
