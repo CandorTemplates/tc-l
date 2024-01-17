@@ -13,6 +13,31 @@ font-weight: normal;
 font-style: normal;
 }
 
+.faq-questions-question {
+font-size: 14px !important;
+}
+
+li.faq-questions-block {
+background: var(--dark) !important;
+border-radius: 5px !important;
+margin-bottom: 5px !important;
+}
+
+.faq-questions-marker {
+top: 0.3em !important;
+font-weight: 500 !important;
+}
+
+.faq-questions-answer-inner {
+padding-left: 0px !important;
+padding-top: 15px !important;
+padding-bottom: 0px !important;
+}
+
+.faq-questions-block {
+padding-left: 20px !important;
+}
+
 .material-symbols-outlined {
 font-variation-settings:
 'FILL' 0,
@@ -484,16 +509,9 @@ border-right: 1px solid #eceae7 !important;
 border-bottom: 1px solid #eceae6;
 }
 
-li.faq-questions-block {
-padding: 8px 12px !important;
-margin-bottom: 5px !important;
-}
-
 .thrivecart-site .tc-v2-widget-bullets .tc-bullet_style-numbered p::before {
 text-align: left !important;
 font-weight: normal !important;
 }
 
-.builder-v2-widget.tc-v2-widget-faq .faq-questions .faq-questions-answer-inner {
-padding: 0.5em;
-}
+
