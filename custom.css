@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
 @font-face {
 font-family: title;
 src: url('https://static1.squarespace.com/static/5f0f3fd14b6dc24dbfc78b1b/t/63fbe55222f9c813064127e2/1677452626209/editorsnote-hairline-webfont.woff2');
@@ -9,6 +11,14 @@ src: url('https://static1.squarespace.com/static/658d77d73558cb11d539330f/t/6595
 url('https://static1.squarespace.com/static/658d77d73558cb11d539330f/t/6595fb64931f0028d82701dd/1704328037055/ed_sonar-regular-webfont.woff') format('woff');
 font-weight: normal;
 font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
 
 :root {
