@@ -82,6 +82,7 @@ text-underline-position: under !important;
 --title-spacing: 0px ;
 --title-decoration-color: #eceae6;
 
+--button-radius: 5px !important;
 --button-family: 'Poppins', sans-serif ;
 --button-size: 12px ;
 --button-padding: 12px 24px;
@@ -115,6 +116,7 @@ text-underline-position: under !important;
 }
 
 .button {
+border-radius: var(--button-radius) !important;
 font-family: var(--button-family) !important;
 font-size: var(--button-size) !important;
 padding: var(--button-padding) !important;
