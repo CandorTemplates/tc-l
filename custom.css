@@ -14,12 +14,28 @@ font-style: normal;
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  font-size: 18px !important;
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 24;
+font-size: 18px !important;
+}
+
+.lesson-nav {
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+.lesson-nav > div {
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+.lesson-nav span {
+padding-right: 7px;
 }
 
 :root {
@@ -96,16 +112,16 @@ letter-spacing: var(--button-spacing) !important;
 text-decoration-color: var(--button-decoration-color) !important;
 }
 
- .tcc-browse-lesson-name-inner {
-    border: 0px !important;
+.tcc-browse-lesson-name-inner {
+border: 0px !important;
 }
 
 builder-v2-widget.tc-v2-widget-core_courses_browser.builder-v2-widget-unselectable {
-    padding: 0 1.3em;
+padding: 0 1.3em;
 }
 
 a.unclickable {
-    color: black !important;
+color: black !important;
 }
 
 .tc-v2-widget-button .button {
@@ -113,7 +129,7 @@ padding: var(--button-padding) !important;
 }
 
 .button .builder-v2-block.builder-v2-block-plaintext{
-  font-family: var(--button-family) !important;
+font-family: var(--button-family) !important;
 font-size: var(--button-size) !important;
 font-weight: var(--button-weight) !important;
 text-transform: var(--button-transform) !important;
